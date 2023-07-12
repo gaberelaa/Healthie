@@ -1,0 +1,148 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "imageURL" : "https://drive.google.com/file/d/1V96W4fRQHrp1wiGyoSqZqSeHcjpUhEef/view?usp=drive_link",
+            "nome": "Banana",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "fruta"
+        },
+        {
+            "id": 2,
+            "imageURL" : "https://drive.google.com/file/d/1NRg8q3OX578aqFGfgCokjhhsPef7E43C/view?usp=drive_link",
+            "nome": "Framboesa",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "fruta"
+        },
+        {
+            "id": 3,
+            "imageURL" : "https://drive.google.com/file/d/14nZ8ATeBTp-y2EC7y6zeWzPgnLeYVWkO/view?usp=drive_link",
+            "nome": "Maça",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "fruta"
+        },
+        {
+            "id": 4,
+            "imageURL" : "https://drive.google.com/file/d/1CfHFuxugbCX24TwPtcfUsAppZvXeEUSY/view?usp=drive_link",
+            "nome": "Mamão",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "fruta"
+        },
+        {
+            "id": 5,
+            "imageURL" : "https://drive.google.com/file/d/1-OtMx-lUx1shNAiA95PLsT0sORLfb0Ij/view?usp=drive_link",
+            "nome": "Manga",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "fruta"
+        },
+        {
+            "id": 6,
+            "imageURL" : "https://drive.google.com/file/d/165bF3yLclxKMl9ucs1QDFisbsMcAUIYG/view?usp=drive_link",
+            "nome": "Pêra",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "fruta"
+        },
+        {
+            "id": 7,
+            "imageURL" : "https://drive.google.com/file/d/1B94AA0YmrKo_An-vs8Qe_E-NGSqMnX6K/view?usp=drive_link",
+            "nome": "Abóbora",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "vegetal"
+        },
+        {
+            "id": 8,
+            "imageURL" : "https://drive.google.com/file/d/1_cgLGGy7Jgza0NWWz5mGW77WcBjm_5KK/view?usp=drive_link",
+            "nome": "Alho poró",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "vegetal"
+        },
+        {
+            "id": 9,
+            "imageURL" : "https://drive.google.com/file/d/1UPikDahzGbPH7ZiPy0HjpmjmMfOj9NOX/view?usp=drive_link",
+            "nome": "Cenoura",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "vegetal"
+        },
+        {
+            "id": 10,
+            "imageURL" : "https://drive.google.com/file/d/1t07k90hrUUshLbNw36d1gIVGxH0XtMUI/view?usp=drive_link",
+            "nome": "Pimentão Verde",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "vegetal"
+        },
+        {
+            "id": 11,
+            "imageURL" : "https://drive.google.com/file/d/1MoZ9B180-WHy4xCFahLqgE6RpGd52Kqm/view?usp=drive_link",
+            "nome": "Pimentão vermelho",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "vegetal"
+        },
+        {
+            "id": 12,
+            "imageURL" : "https://drive.google.com/file/d/1RHcdAmI_ZjsN0W98Os7h-Z_sVM8ai1wV/view?usp=drive_link",
+            "nome": "Vegetal",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "vegetal"
+        },
+        {
+            "id": 13,
+            "imageURL" : "https://drive.google.com/file/d/1ttigSSYq8WYBkM5PVBJnJ23M23X3Txfr/view?usp=drive_link",
+            "nome": "Arroz integral",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "saudavel"
+        },
+        {
+            "id": 14,
+            "imageURL" : "https://drive.google.com/file/d/1ADN3x8VjdEbm8V487IIiSFvt_A_FvKln/view?usp=drive_link",
+            "nome": "Macarrão integral",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "saudavel"
+        },
+        {
+            "id": 15,
+            "imageURL" : "https://drive.google.com/file/d/1K753q_obJPJZIrYOg1BEECVEgTUSW0UO/view?usp=drive_link",
+            "nome": "Rámen",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "saudavel"
+        },
+        {
+            "id": 16,
+            "imageURL" : "https://drive.google.com/file/d/1ZbY4av3952xXqluYY_kmP3OQx0piPJMe/view?usp=drive_link",
+            "nome": "Salada",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "saudavel"
+        },
+        {
+            "id": 17,
+            "imageURL" : "https://drive.google.com/file/d/1usZIOTzR5cGNoX5BzvYztuXm3yxLrkFq/view?usp=drive_link",
+            "nome": "Salada com ovos",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "saudavel"
+        },
+        {
+            "id": 18,
+            "imageURL" : "https://drive.google.com/file/d/1fwVwTdJJEVIYXx7imYm27B3HeRYiIYiR/view?usp=drive_link",
+            "nome": "Shawarma integral",
+            "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "preco": 5.00,
+            "categoria": "saudavel"
+        }
+    ]
+}

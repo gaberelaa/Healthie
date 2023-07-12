@@ -1,0 +1,23 @@
+#profile__info {
+    background-color: var(--verde-claro);
+    width: 20.75rem;
+    height: auto;
+}
+
+.profile__pic h3 {
+    color: white;
+}
+
+.profile__lista-infos {
+    color: white;
+    list-style: none;
+}
+
+#compra__venda {
+    width: 100%;
+}
+
+.cabecalho__titulo {
+    font-size: 2rem;
+    border-bottom: 3px solid var(--verde-claro);
+}

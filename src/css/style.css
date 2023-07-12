@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Pacifico&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --verde-claro: #95bb5f;
+}
+
+.navbar-brand {
+    color: var(--verde-claro);
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+    transition: 0.4s ease-in-out;
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-brand:hover {
+    color: #465236ec;
+}
+
+.input {
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.input:focus {
+    outline: none;
+}
+
+label {
+    background-color: white;
+    border-radius: 3rem;
+    border: 1px solid var(--verde-claro);
+}
+
+label i {
+    color: var(--verde-claro);
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #c9c8c8;
+    font-weight: 500;
+}
+
+.btn__login {
+    border: 1px solid var(--verde-claro);
+    border-radius: 3rem;
+    color: var(--verde-claro);
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+}
+
+.btn__login:hover {
+    background-color: var(--verde-claro);
+    color: white;
+}
+
+#banner {
+    background-image: url(/src/images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner__content {
+    height: 40.625rem;
+}
+
+.banner__titulo {
+    font-family: 'Pacifico', cursive;
+    color: #b2203f;
+    font-size: 5rem;
+}
+
+.banner__texto {
+    font-weight: 600;
+    width: 55rem;
+    color: rgb(36, 83, 60);
+}
+
+.btn__banner {
+    font-weight: 700;
+    border: none;
+    background-color:var(--verde-claro);
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn__banner:hover {
+    color: #465236ec;
+}
+
+.btn__categoria {
+    border: none;
+    color: var(--verde-claro);
+    font-weight: 600;
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn__categoria:active,
+.btn__categoria:focus,
+.btn__categoria:hover {
+    background-color: var(--verde-claro);
+    color: white;
+    border-radius: 2rem;
+}
+
+#footer__content {
+    background-color: #F7F6F2;
+}
+
+.btn__email {
+    background-color: var(--verde-claro);
+    border-radius: 0 10rem 10rem 0;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 2.4rem;
+}
+
+.infos__Lista {
+    list-style: none;
+}
+
+#copy a {
+    color: var(--verde-claro);
+    font-size: 0.8rem;
+}

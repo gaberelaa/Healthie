@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"
+        defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="src/images/frutas.png" type="image/x-icon">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="../src/css/perfil.css">
+    <title>Healthie</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar shadow-sm">
+            <div class="container">
+                <a href="../index.html" class="navbar-brand">Healthie</a>
+            </div>
+        </nav>
+    </header>
+    <main class="d-flex gap-2">
+        <section id="profile__info" class="shadow">
+            <div class="container-fluid">
+                <div class="profile__pic d-flex flex-column align-items-center justify-content-center gap-4 p-5">
+                    <img src="/src/images/profilePic.png" alt="imagem de perfil">
+                    <h3 class="fw-bold">Fulana de tal</h3>
+                </div>
+
+                <ul class="profile__lista-infos d-flex flex-column justify-content-center">
+                    <li><a href="#" class="nav-link fw-semibold my-3"><i class="bi bi-bag-fill p-2"></i>Compras</a></li>
+                    <li><a href="#" class="nav-link fw-semibold my-3"><i class="bi bi-bag-check-fill p-2"></i>Vendas</a>
+                    </li>
+                    <li><a href="#" class="nav-link fw-semibold my-3"><i
+                                class="bi bi-currency-dollar p-2"></i>Faturamento</a></li>
+                    <li><a href="#" class="nav-link fw-semibold my-3"><i class="bi bi-person-lines-fill p-2"></i>Meu
+                            perfil</a></li>
+                    <li><a href="#" class="nav-link fw-semibold my-3"><i
+                                class="bi bi-gear-fill p-2"></i>Configurações</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="compra__venda">
+            <div class="venda">
+                <div class="compraEvenda__cabecalho d-flex align-items-center justify-content-between m-5">
+                    <h1 class="fw-bold cabecalho__titulo">Meus produtos</h1>
+
+                    <div class="btns__meusProdutos">
+                        <button class="btn__banner removerProduto text-uppercase px-3 py-2 me-3 shadow-sm">Remover produto</button>
+                        <button class="btn__banner adicionarProduto text-uppercase px-3 py-2 shadow-sm">Adicionar produto</button>
+                    </div>
+                </div>
+
+                <div class="compraEvenda__body d-flex gap-4 mx-5">
+                    <div class="card" style="width: 18rem;" data-category="fruta">
+                        <img src="../src/images/frutas/banana.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                            <h5 class="card-title">Banana</h5>
+                            <span class="price fw-bold">R$5,00</span>
+                            <a href="#" class="btn btn__login">Comprar</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;" data-category="fruta">
+                        <img src="../src/images/frutas/framboesa.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                            <h5 class="card-title">Framboesa</h5>
+                            <span class="price fw-bold">R$5,00</span>
+                            <a href="#" class="btn btn__login">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="compra">
+                <div class="compraEvenda__cabecalho d-flex align-items-center justify-content-between m-5">
+                    <h1 class="fw-bold cabecalho__titulo">Minhas compras</h1>
+
+                    <button class="btn__banner adicionarProduto text-uppercase px-3 py-2 shadow-sm">Ver tudo</button>
+                </div>
+
+                <div class="compraEvenda__body d-flex gap-4 m-5">
+                    <div class="card" style="width: 18rem;" data-category="fruta">
+                        <img src="../src/images/frutas/manga.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center d-flex flex-column align-items-center gap-2">
+                            <h5 class="card-title">Manga</h5>
+                            <span class="price fw-bold">R$5,00</span>
+                            <a href="#" class="btn btn__login">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="footer__content" class="p-5 shadow-sm">
+            <div class="container d-flex justify-content-evenly">
+                <a href="#" class="navbar-brand">Healthie</a>
+
+                <ul class="infos__Lista d-flex flex-column gap-3">
+                    <li><a href="" class="infos__Links nav-link">Quem somos nós</a></li>
+                    <li><a href="" class="infos__Links nav-link">Política de privacidade</a></li>
+                    <li><a href="" class="infos__Links nav-link">Programa de fidelidade</a></li>
+                    <li><a href="" class="infos__Links nav-link">Nossas lojas</a></li>
+                    <li><a href="" class="infos__Links nav-link">Quero ser franqueado</a></li>
+                    <li><a href="" class="infos__Links nav-link">Anuncie aqui</a></li>
+                </ul>
+
+                <div class="newsletter">
+                    <div class="newsletter__text">
+                        <h2 class="fw-bold">Se inscreva em nossa Newsletter</h2>
+                        <p>Receba nossas promoções e cupons de desconto.</p>
+                    </div>
+
+                    <form action="">
+                        <label>
+                            <input type="text" placeholder="Digite o seu e-mail" aria-label="email" class="input px-3">
+                            <button class="btn__email px-3">Inscreva-se</button>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="copy">
+            <a href="https://github.com/gaberelaa" target="_blank" class="nav-link m-3 text-center fw-semibold">&copy;
+                Gabriela Zunino, 2023.</a>
+        </section>
+    </footer>
+</body>
+
+</html>

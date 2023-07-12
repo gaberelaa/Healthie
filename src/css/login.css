@@ -1,0 +1,33 @@
+#login {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#login .container {
+    height: 37.5rem;
+}
+
+#login form {
+    width: 31.25rem;
+ 
+}
+
+#login form h1 {
+    font-weight: 900;
+    color: var(--verde-claro);
+}
+
+#login .input {
+    width: 21.875rem;
+}
+
+#login .btn__banner {
+    width: 21.875rem;
+}
+
+.cadastro {
+    text-decoration: none;
+    color: var(--verde-claro);
+}
