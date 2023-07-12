@@ -2,7 +2,7 @@
     "produtos": [
         {
             "id": 1,
-            "imageURL" : "https://drive.google.com/file/d/1V96W4fRQHrp1wiGyoSqZqSeHcjpUhEef/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/frutas/banana.png?raw=true",
             "nome": "Banana",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -10,7 +10,7 @@
         },
         {
             "id": 2,
-            "imageURL" : "https://drive.google.com/file/d/1NRg8q3OX578aqFGfgCokjhhsPef7E43C/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/frutas/framboesa.png?raw=true",
             "nome": "Framboesa",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -18,7 +18,7 @@
         },
         {
             "id": 3,
-            "imageURL" : "https://drive.google.com/file/d/14nZ8ATeBTp-y2EC7y6zeWzPgnLeYVWkO/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/frutas/ma%C3%A7a.png?raw=true",
             "nome": "Maça",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -26,7 +26,7 @@
         },
         {
             "id": 4,
-            "imageURL" : "https://drive.google.com/file/d/1CfHFuxugbCX24TwPtcfUsAppZvXeEUSY/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/frutas/mam%C3%A3o.png?raw=true",
             "nome": "Mamão",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -34,7 +34,7 @@
         },
         {
             "id": 5,
-            "imageURL" : "https://drive.google.com/file/d/1-OtMx-lUx1shNAiA95PLsT0sORLfb0Ij/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/frutas/manga.png?raw=true",
             "nome": "Manga",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -42,7 +42,7 @@
         },
         {
             "id": 6,
-            "imageURL" : "https://drive.google.com/file/d/165bF3yLclxKMl9ucs1QDFisbsMcAUIYG/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/frutas/pera.png?raw=true",
             "nome": "Pêra",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -50,7 +50,7 @@
         },
         {
             "id": 7,
-            "imageURL" : "https://drive.google.com/file/d/1B94AA0YmrKo_An-vs8Qe_E-NGSqMnX6K/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/vegetais/abobora.png?raw=true",
             "nome": "Abóbora",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -58,7 +58,7 @@
         },
         {
             "id": 8,
-            "imageURL" : "https://drive.google.com/file/d/1_cgLGGy7Jgza0NWWz5mGW77WcBjm_5KK/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/vegetais/alhoPoro.png?raw=true",
             "nome": "Alho poró",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -66,7 +66,7 @@
         },
         {
             "id": 9,
-            "imageURL" : "https://drive.google.com/file/d/1UPikDahzGbPH7ZiPy0HjpmjmMfOj9NOX/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/vegetais/cenoura.png?raw=true",
             "nome": "Cenoura",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -74,7 +74,7 @@
         },
         {
             "id": 10,
-            "imageURL" : "https://drive.google.com/file/d/1t07k90hrUUshLbNw36d1gIVGxH0XtMUI/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/vegetais/pimentaoVerde.png?raw=true",
             "nome": "Pimentão Verde",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -82,7 +82,7 @@
         },
         {
             "id": 11,
-            "imageURL" : "https://drive.google.com/file/d/1MoZ9B180-WHy4xCFahLqgE6RpGd52Kqm/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/vegetais/pimentaoVermelho.png?raw=true",
             "nome": "Pimentão vermelho",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -90,7 +90,7 @@
         },
         {
             "id": 12,
-            "imageURL" : "https://drive.google.com/file/d/1RHcdAmI_ZjsN0W98Os7h-Z_sVM8ai1wV/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/vegetais/vegetal.png?raw=true",
             "nome": "Vegetal",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -98,7 +98,7 @@
         },
         {
             "id": 13,
-            "imageURL" : "https://drive.google.com/file/d/1ttigSSYq8WYBkM5PVBJnJ23M23X3Txfr/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/comidas/arroz.png?raw=true",
             "nome": "Arroz integral",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -106,7 +106,7 @@
         },
         {
             "id": 14,
-            "imageURL" : "https://drive.google.com/file/d/1ADN3x8VjdEbm8V487IIiSFvt_A_FvKln/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/comidas/macarrao.png?raw=true",
             "nome": "Macarrão integral",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -114,7 +114,7 @@
         },
         {
             "id": 15,
-            "imageURL" : "https://drive.google.com/file/d/1K753q_obJPJZIrYOg1BEECVEgTUSW0UO/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/comidas/ramen.png?raw=true",
             "nome": "Rámen",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -122,7 +122,7 @@
         },
         {
             "id": 16,
-            "imageURL" : "https://drive.google.com/file/d/1ZbY4av3952xXqluYY_kmP3OQx0piPJMe/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/comidas/salada.png?raw=true",
             "nome": "Salada",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -130,7 +130,7 @@
         },
         {
             "id": 17,
-            "imageURL" : "https://drive.google.com/file/d/1usZIOTzR5cGNoX5BzvYztuXm3yxLrkFq/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/comidas/saladaOvos.png?raw=true",
             "nome": "Salada com ovos",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,
@@ -138,7 +138,7 @@
         },
         {
             "id": 18,
-            "imageURL" : "https://drive.google.com/file/d/1fwVwTdJJEVIYXx7imYm27B3HeRYiIYiR/view?usp=drive_link",
+            "imageURL" : "https://github.com/gaberelaa/Healthie/blob/master/src/images/comidas/shawarma.png?raw=true",
             "nome": "Shawarma integral",
             "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "preco": 5.00,

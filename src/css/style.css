@@ -107,9 +107,9 @@ label i {
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.btn__categoria:active,
 .btn__categoria:focus,
-.btn__categoria:hover {
+.btn__categoria:hover,
+.active {
     background-color: var(--verde-claro);
     color: white;
     border-radius: 2rem;
@@ -135,5 +135,15 @@ label i {
 
 #copy a {
     color: var(--verde-claro);
+    font-size: 0.8rem;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.success {
+    color: rgb(12, 190, 12);
     font-size: 0.8rem;
 }

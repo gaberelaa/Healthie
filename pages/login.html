@@ -14,6 +14,9 @@
     <link rel="shortcut icon" href="src/images/frutas.png" type="image/x-icon">
     <link rel="stylesheet" href="../src/css/style.css">
     <link rel="stylesheet" href="../src/css/login.css">
+
+    <script src="../src/js/validacaoLogin.js" defer></script>
+    <script src="../src/js/validacaoNews.js" defer></script>
     <title>Healthie</title>
 </head>
 
@@ -28,15 +31,21 @@
     <main>
         <section id="login">
             <div class="container d-flex justify-content-center align-items-center">
-                <form action="" class="d-flex flex-column align-items-center gap-3 p-5">
+                <form action="" class="d-flex flex-column align-items-center gap-3 p-5" data-form>
                     <h1>Iniciar sessão</h1>
-                    <label for="" class="form__item">
-                        <input type="email" id="email" class="input py-2 px-3" placeholder="Digite seu e-mail">
-                    </label>
+                    <div class="form__item d-flex flex-column">
+                        <span class="px-2 py-1" data-error></span>
+                        <label for="" class="form__item">
+                            <input type="email" id="email" class="input py-2 px-3" placeholder="Digite seu e-mail" oninput="validaEmail()">
+                        </label>
+                    </div>
 
-                    <label for="" class="form__item">
-                        <input type="password" id="senha" class="input py-2 px-3" placeholder="Digite sua senha">
-                    </label>
+                    <div class="form__item d-flex flex-column">
+                        <span class="px-2 py-1" data-error></span>
+                        <label for="" class="form__item">
+                            <input type="password" id="senha" class="input py-2 px-3" placeholder="Digite sua senha" oninput="validaSenha()">
+                        </label>
+                    </div>
 
                     <input type="submit" value="Entrar" class="btn__banner py-2 text-uppercase">
                     <p>Ainda não tem uma conta? <a href="#" aria-label="Cadastre-se" class="cadastro fw-semibold">Cadastre-se</a>.</p>
@@ -64,10 +73,11 @@
                         <p>Receba nossas promoções e cupons de desconto.</p>
                     </div>
     
-                    <form action="">
+                    <form action="" class="d-flex flex-column align-items-start" data-news>
+                        <span class="px-2 py-1" data-alert></span>
                         <label>
-                            <input type="text" placeholder="Digite o seu e-mail" aria-label="email" class="input px-3">
-                            <button class="btn__email px-3">Inscreva-se</button>
+                            <input type="text" placeholder="Digite o seu e-mail" aria-label="email" class="input px-3" data-email>
+                            <input type="submit" class="btn__email px-3" value="Inscreva-se">
                         </label>
                     </form>
                 </div>

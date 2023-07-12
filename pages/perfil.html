@@ -14,6 +14,8 @@
     <link rel="shortcut icon" href="src/images/frutas.png" type="image/x-icon">
     <link rel="stylesheet" href="../src/css/style.css">
     <link rel="stylesheet" href="../src/css/perfil.css">
+
+    <script src="../src/js/validacaoNews.js" defer></script>
     <title>Healthie</title>
 </head>
 
@@ -34,15 +36,12 @@
                 </div>
 
                 <ul class="profile__lista-infos d-flex flex-column justify-content-center">
-                    <li><a href="#" class="nav-link fw-semibold my-3"><i class="bi bi-bag-fill p-2"></i>Compras</a></li>
-                    <li><a href="#" class="nav-link fw-semibold my-3"><i class="bi bi-bag-check-fill p-2"></i>Vendas</a>
+                    <li><a href="#" class="nav-link fw-semibold fs-5 my-3"><i class="bi bi-bag-fill p-2"></i>Compras</a></li>
+                    <li><a href="#" class="nav-link fw-semibold fs-5 my-3"><i class="bi bi-bag-check-fill p-2"></i>Vendas</a>
                     </li>
-                    <li><a href="#" class="nav-link fw-semibold my-3"><i
-                                class="bi bi-currency-dollar p-2"></i>Faturamento</a></li>
-                    <li><a href="#" class="nav-link fw-semibold my-3"><i class="bi bi-person-lines-fill p-2"></i>Meu
-                            perfil</a></li>
-                    <li><a href="#" class="nav-link fw-semibold my-3"><i
-                                class="bi bi-gear-fill p-2"></i>Configurações</a></li>
+                    <li><a href="#" class="nav-link fw-semibold fs-5 my-3"><i class="bi bi-currency-dollar p-2"></i>Faturamento</a></li>
+                    <li><a href="#" class="nav-link fw-semibold fs-5 my-3"><i class="bi bi-person-lines-fill p-2"></i>Meu perfil</a></li>
+                    <li><a href="#" class="nav-link fw-semibold fs-5 my-3"><i class="bi bi-gear-fill p-2"></i>Configurações</a></li>
                 </ul>
             </div>
         </section>
@@ -118,11 +117,12 @@
                         <h2 class="fw-bold">Se inscreva em nossa Newsletter</h2>
                         <p>Receba nossas promoções e cupons de desconto.</p>
                     </div>
-
-                    <form action="">
+    
+                    <form action="" class="d-flex flex-column align-items-start" data-news>
+                        <span class="px-2 py-1" data-alert></span>
                         <label>
-                            <input type="text" placeholder="Digite o seu e-mail" aria-label="email" class="input px-3">
-                            <button class="btn__email px-3">Inscreva-se</button>
+                            <input type="text" placeholder="Digite o seu e-mail" aria-label="email" class="input px-3" data-email>
+                            <input type="submit" class="btn__email px-3" value="Inscreva-se">
                         </label>
                     </form>
                 </div>
@@ -130,8 +130,7 @@
         </section>
 
         <section id="copy">
-            <a href="https://github.com/gaberelaa" target="_blank" class="nav-link m-3 text-center fw-semibold">&copy;
-                Gabriela Zunino, 2023.</a>
+            <a href="https://github.com/gaberelaa" target="_blank" class="nav-link m-3 text-center fw-semibold">&copy; Gabriela Zunino, 2023.</a>
         </section>
     </footer>
 </body>
