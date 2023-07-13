@@ -108,8 +108,7 @@ label i {
 }
 
 .btn__categoria:focus,
-.btn__categoria:hover,
-.active {
+.btn__categoria:hover {
     background-color: var(--verde-claro);
     color: white;
     border-radius: 2rem;
@@ -146,4 +145,13 @@ label i {
 .success {
     color: rgb(12, 190, 12);
     font-size: 0.8rem;
+}
+
+#termoDaBusca {
+    color: var(--verde-claro);
+}
+
+#btnSearch {
+    border: none;
+    background-color: transparent;
 }

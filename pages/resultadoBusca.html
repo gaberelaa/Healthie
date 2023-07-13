@@ -11,13 +11,12 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"
         defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="src/images/frutas.png" type="image/x-icon">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="../src/images/frutas.png" type="image/x-icon">
+    <link rel="stylesheet" href="../src/css/style.css">
 
 
-    <script src="src/js/validacaoNews.js" defer></script>
-    <script src="src/js/mostrarProdutos.js" type="module" defer></script>
-    <script src="src/js/buscarProdutos.js" type="module" defer></script>
+    <script src="../src/js/validacaoNews.js" defer></script>
+    <script src="../src/js/buscarProdutos.js" type="module" defer></script>
     <title>Healthie</title>
 </head>
 
@@ -25,48 +24,24 @@
     <header id="home">
         <nav class="navbar shadow-sm">
             <div class="container">
-                <a href="index.html" class="navbar-brand">Healthie</a>
+                <a href="../index.html" class="navbar-brand">Healthie</a>
 
                 <form class="d-flex" role="search">
                     <label class="px-5 py-2">
                         <input type="text" placeholder="Digite a sua busca..." aria-label="Search" class="input" data-search>
-                        <button id="btnSearch"><i class="bi bi-search-heart-fill"></i></button>
+                        <i class="bi bi-search-heart-fill"></i>
                     </label>
                 </form>
 
-                <a href="pages/login.html" class="nav-link btn__login px-5 py-2">Login</a>
+                <a href="./login.html" class="nav-link btn__login px-5 py-2">Login</a>
             </div>
         </nav>
     </header>
     <main>
-        <section id="banner" class="shadow-sm">
-            <div class="container-fluid d-flex flex-column align-items-center justify-content-center banner__content">
-                <h1 class="banner__titulo pb-4">Sabor e saúde em cada mordida!</h1>
-                <p class="text-center banner__texto pb-3">
-                    Em nossa loja, você encontrará um verdadeiro paraíso de cores e sabores saudáveis. Nosso compromisso
-                    é oferecer frutas e legumes frescos, cultivados com cuidado e amor pela natureza. Cada produto
-                    selecionado com rigor para garantir o máximo de nutrientes e sabor em sua dieta. Aqui, você pode
-                    contar com opções variadas para criar refeições equilibradas e deliciosas. Venha nos visitar e
-                    descubra como é possível nutrir seu corpo enquanto desfruta de alimentos incrivelmente saborosos!
-                </p>
-                <a href="#principal" class="nav-link p-3 text-uppercase btn__banner">Quero conferir!</a>
-            </div>
-        </section>
-
         <section id="principal">
             <div class="container d-flex flex-column align-items-center justify-content-center">
-                <div class="btns__categoria d-flex justify-content-center mt-5 p-5">
-                    <button class="btn__categoria btn__filtro-todos px-4 py-3 mx-1" id="todos"
-                        value="Todos">Todos</button>
-                    <button class="btn__categoria btn__filtro px-4 py-3 mx-1" id="Frutas" value="fruta">Frutas</button>
-                    <button class="btn__categoria btn__filtro px-4 py-3 mx-1" id="Vegetais"
-                        value="vegetal">Vegetais</button>
-                    <button class="btn__categoria btn__filtro px-4 py-3 mx-1" id="Saudavel"
-                        value="saudavel">Saudável</button>
-                </div>
-
-                <div class="produtos d-flex gap-4 flex-wrap justify-content-center align-items-center my-5"
-                    data-products>
+                <h1 class="mt-5 fw-bold">Filtrado por <span id="termoDaBusca"></span></h1>
+                <div class="produtos d-flex gap-4 flex-wrap justify-content-center align-items-center my-5" data-result>
                 </div>
             </div>
         </section>
