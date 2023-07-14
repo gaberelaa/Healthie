@@ -14,8 +14,9 @@
     <link rel="shortcut icon" href="src/images/frutas.png" type="image/x-icon">
     <link rel="stylesheet" href="../src/css/style.css">
     <link rel="stylesheet" href="../src/css/novoProduto.css">
-    
+
     <script src="../src/js/validacaoNews.js" defer></script>
+    <script src="../src/js/inputAdicionarImagem.js" defer></script>
     <title>Healthie</title>
 </head>
 
@@ -28,8 +29,44 @@
         </nav>
     </header>
     <main>
-        <section id="novoProduto">
-           
+        <section id="novoProduto" class="d-flex justify-content-center align-items-center flex-column gap-5 m-5 p-3">
+            <h1 class="fw-bold">Adicionar novo produto</h1>
+            <form action="">
+                <div class="add__image">
+                    <label class="picture" tabindex="0">
+                        <input type="file" accept="image/*" class="picture__input" id="input__picture" required>
+                        <span class="picture__image"></span>
+                    </label>
+
+                    <span class="fw-semibold">Ou</span>
+
+                    <label class="picture__option2 p-2">
+                        <input type="file" accept="image/*" class="picture__input" id="input__picture-btn" required>
+                        <span class="picture__btn btn__login fw-medium">
+                            Procure no seu computador
+                        </span>
+                    </label>
+                </div>
+
+                <div class="form__item d-flex flex-column my-4">
+                    <span class="form__item-titulo px-4">Nome do produto</span>
+                    <input type="text" id="" class="px-4 fw-medium" minlength="3" maxlength="20" required>
+                </div>
+                <div class="form__item d-flex flex-column my-4">
+                    <span class="form__item-titulo px-4">Categoria</span>
+                    <input type="text" id="" class="px-4 fw-medium" minlength="3" required>
+                </div>
+                <div class="form__item d-flex flex-column my-4">
+                    <span class="form__item-titulo px-4">Preço</span>
+                    <input type="number" id="" class="px-4 fw-medium" minlength="1" required>
+                </div>
+                <div class="form__item d-flex flex-column my-4">
+                    <span class="form__item-titulo px-4">Descrição</span>
+                    <input type="text" id="" class="px-4 fw-medium" minlength="3" maxlength="150" required>
+                </div>
+
+                <input type="submit" class="btn__banner picture__btn text-uppercase" value="Adicionar">
+            </form>
         </section>
     </main>
     <footer>
@@ -51,11 +88,12 @@
                         <h2 class="fw-bold">Se inscreva em nossa Newsletter</h2>
                         <p>Receba nossas promoções e cupons de desconto.</p>
                     </div>
-    
+
                     <form action="" class="d-flex flex-column align-items-start" data-news>
                         <span class="px-2 py-1" data-alert></span>
                         <label>
-                            <input type="text" placeholder="Digite o seu e-mail" aria-label="email" class="input px-3" data-email>
+                            <input type="text" placeholder="Digite o seu e-mail" aria-label="email" class="input px-3"
+                                data-email>
                             <input type="submit" class="btn__email px-3" value="Inscreva-se">
                         </label>
                     </form>
@@ -64,7 +102,8 @@
         </section>
 
         <section id="copy">
-            <a href="https://github.com/gaberelaa" target="_blank" class="nav-link m-3 text-center fw-semibold">&copy; Gabriela Zunino, 2023.</a>
+            <a href="https://github.com/gaberelaa" target="_blank" class="nav-link m-3 text-center fw-semibold">&copy;
+                Gabriela Zunino, 2023.</a>
         </section>
     </footer>
 </body>
