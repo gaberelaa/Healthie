@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../src/css/perfil.css">
 
     <script src="../src/js/validacaoNews.js" defer></script>
+    <script src="../src/js/mostrarNovoProduto.js" type="module" defer></script>
     <title>Healthie</title>
 </head>
 
@@ -52,29 +53,11 @@
                     <h1 class="fw-bold cabecalho__titulo">Meus produtos</h1>
 
                     <div class="btns__meusProdutos">
-                        <button class="btn__banner remover__Produto text-uppercase px-3 py-2 me-3 shadow-sm">Remover produto</button>
                         <a href="./adicionarProduto.html" class="btn__banner adicionar__Produto text-uppercase px-3 py-2 shadow-sm">Adicionar produto</a>
                     </div>
                 </div>
 
-                <div class="compraEvenda__body d-flex gap-4 mx-5">
-                    <div class="card" style="width: 18rem;" data-category="fruta">
-                        <img src="../src/images/frutas/banana.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center d-flex flex-column align-items-center gap-2">
-                            <h5 class="card-title">Banana</h5>
-                            <span class="price fw-bold">R$5,00</span>
-                            <a href="#" class="btn btn__login">Comprar</a>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 18rem;" data-category="fruta">
-                        <img src="../src/images/frutas/framboesa.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center d-flex flex-column align-items-center gap-2">
-                            <h5 class="card-title">Framboesa</h5>
-                            <span class="price fw-bold">R$5,00</span>
-                            <a href="#" class="btn btn__login">Comprar</a>
-                        </div>
-                    </div>
+                <div class="compraEvenda__body d-flex gap-4 mx-5" data-novo>
                 </div>
             </div>
 

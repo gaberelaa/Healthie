@@ -30,3 +30,22 @@ nav {
 .adicionar__Produto {
     text-decoration: none;
 }
+
+.compraEvenda__body {
+    height: 100%;
+    min-height: 15rem;
+}
+
+.remove__produto {
+    background-color: rgb(231, 101, 101);
+    border: 1px solid rgb(231, 101, 101);
+    color: white;
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+}
+
+.remove__produto:hover {
+    background-color: transparent;
+    color: rgb(231, 101, 101);
+    border: 1px solid rgb(231, 101, 101);
+}

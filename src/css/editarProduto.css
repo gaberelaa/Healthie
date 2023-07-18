@@ -1,0 +1,27 @@
+main {
+    width: 100vw;
+    height: max-content;
+}
+
+#produto {
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 2rem;
+    width: 450px;
+    height: 500px;
+}
+
+.produto__img {
+    width: 50%;
+}
+
+.produto__descricao {
+    width: 26rem;
+}
+
+#novoProduto {
+    width: 30vw;
+}
+
+.form {
+    width: 100%;
+}

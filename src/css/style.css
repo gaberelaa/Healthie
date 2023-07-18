@@ -155,10 +155,6 @@ label i {
     font-size: 0.8rem;
 }
 
-#termoDaBusca {
-    color: var(--verde-claro);
-}
-
 #btnSearch {
     border: none;
     background-color: transparent;

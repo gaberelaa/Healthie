@@ -1,10 +1,12 @@
 import { conectaApi } from "./conectaApi.js"
 
+
 const divProdutos = document.querySelector('[data-products]');
 
-export default function novoProduto(nome, imageURL, preco, categoria) {
+export default function novoProduto(id, nome, imageURL, preco, categoria) {
     const card = document.createElement('div');
     card.classList.add('card');
+    card.id = `${id}`
     card.style.width = '18rem';
     card.dataset.category = categoria;
 
@@ -21,33 +23,11 @@ export default function novoProduto(nome, imageURL, preco, categoria) {
     return card;
 }
 
-async function listaProdutos() {
+export async function listaProdutos() {
     const listaApi = await conectaApi.listaProdutos();
     divProdutos.innerHTML = '';
-    listaApi.forEach(elemento => divProdutos.appendChild(novoProduto(elemento.nome, elemento.imageURL, elemento.preco, elemento.categoria)));
+    listaApi.forEach(elemento => divProdutos.appendChild(novoProduto(elemento.id, elemento.nome, elemento.imageURL, elemento.preco, elemento.categoria)));
 }
 
 listaProdutos();
 
-
-//Filtrar produtos pelos botões
-
-const btnFiltrarTodos = document.querySelector('.btn__filtro-todos');
-btnFiltrarTodos.addEventListener('click', listaProdutos); //Todos
-
-//Frutas, vegetais e saudável
-const buttons = document.querySelectorAll('.btn__filtro');
-
-buttons.forEach(btn => btn.addEventListener('click', btnFiltrar));
-
-async function btnFiltrar() {
-    const listaApi = await conectaApi.listaProdutos();
-    const elementoBtn = document.getElementById(this.id);
-    const categoria = elementoBtn.value;
-
-    let produtosFiltrados = listaApi.filter(elemento => elemento.categoria == categoria);
-
-    divProdutos.innerHTML = '';
-
-    produtosFiltrados.forEach(elemento => divProdutos.appendChild(novoProduto(elemento.nome, elemento.imageURL, elemento.preco, elemento.categoria)));
-};

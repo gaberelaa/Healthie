@@ -16,6 +16,10 @@
     border-radius: 0.7rem;
 }
 
+form {
+    width: 50%;
+}
+
 .picture:focus {
     outline: 2px dashed var(--azul);
 }

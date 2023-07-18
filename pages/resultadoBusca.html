@@ -16,6 +16,7 @@
 
 
     <script src="../src/js/validacaoNews.js" defer></script>
+    <script src="../src/js/resultadoBusca.js" type="module" defer></script>
     <script src="../src/js/buscarProdutos.js" type="module" defer></script>
     <title>Healthie</title>
 </head>
@@ -27,9 +28,9 @@
                 <a href="../index.html" class="navbar-brand">Healthie</a>
 
                 <form class="d-flex" role="search">
-                    <label class="px-5 py-2">
+                    <label class="px-5 py-2" class="searchLabel">
                         <input type="text" placeholder="Digite a sua busca..." aria-label="Search" class="input" data-search>
-                        <i class="bi bi-search-heart-fill"></i>
+                        <button id="btnSearch"><i class="bi bi-search-heart-fill"></i></button>
                     </label>
                 </form>
 
@@ -40,7 +41,7 @@
     <main>
         <section id="principal">
             <div class="container d-flex flex-column align-items-center justify-content-center">
-                <h1 class="mt-5 fw-bold">Filtrado por <span id="termoDaBusca"></span></h1>
+                <h1 class="mt-5 fw-bold">Resultados para a sua pesquisa</h1>
                 <div class="produtos d-flex gap-4 flex-wrap justify-content-center align-items-center my-5" data-result>
                 </div>
             </div>
