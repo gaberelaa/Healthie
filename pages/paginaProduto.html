@@ -13,56 +13,34 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="src/images/frutas.png" type="image/x-icon">
     <link rel="stylesheet" href="../src/css/style.css">
-    <link rel="stylesheet" href="../src/css/login.css">
-    <link rel="stylesheet" href="../src/css/novoProduto.css">
-    <link rel="stylesheet" href="../src/css/editarProduto.css">
+    <link rel="stylesheet" href="../src/css/paginaProduto.css">
 
-    <script src="../src/js/editarProduto.js" type="module" defer></script>
+    <script src="../src/js/buscarProdutos.js" type="module" defer></script>
+    <script src="../src/js/paginaProduto.js" type="module" defer></script>
     <script src="../src/js/validacaoNews.js" defer></script>
     <title>Healthie</title>
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <nav class="navbar shadow-sm">
             <div class="container">
                 <a href="../index.html" class="navbar-brand">Healthie</a>
+
+                <form class="d-flex" role="search">
+                    <label class="px-5 py-2" class="searchLabel">
+                        <input type="text" placeholder="Digite a sua busca..." aria-label="Search" class="input" data-search>
+                        <button id="btnSearch"><i class="bi bi-search-heart-fill"></i></button>
+                    </label>
+                </form>
+
+                <a href="./login.html" class="nav-link btn__login px-5 py-2">Login</a>
             </div>
         </nav>
     </header>
-    <main class="d-flex justify-content-center align-items-center gap-5 my-5">
+    <main>
         <section id="produto" data-produto>
-           
-        </section>
-        <section id="novoProduto" class="d-flex justify-content-center align-items-center flex-column">
-            <h1 class="fw-bold">Editar produto</h1>
-            <form data-formulario class="form">
-                <div class="form__item d-flex flex-column my-4">
-                    <span class="form__item-titulo px-4">Url da imagem</span>
-                    <input type="url" id="" class="px-4 fw-medium" minlength="3" required data-img>
-                </div>
-
-                <div class="form__item d-flex flex-column my-4">
-                    <span class="form__item-titulo px-4">Nome do produto</span>
-                    <input type="text" id="" class="px-4 fw-medium" minlength="3" maxlength="20" required data-titulo>
-                </div>
-                <div class="form__item d-flex flex-column my-4">
-                    <span class="form__item-titulo px-4">Categoria</span>
-                    <input type="text" id="" class="px-4 fw-medium" minlength="3" required data-categoria>
-                </div>
-                <div class="form__item d-flex flex-column my-4">
-                    <span class="form__item-titulo px-4">Preço</span>
-                    <input type="number" id="" class="px-4 fw-medium" minlength="1" required data-preco>
-                </div>
-                <div class="form__item d-flex flex-column my-4">
-                    <span class="form__item-titulo px-4">Descrição</span>
-                    <input type="text" id="" class="px-4 fw-medium" minlength="3" maxlength="150" required
-                        data-descricao>
-                </div>
-
-                <input type="submit" class="btn__banner picture__btn text-uppercase" value="Salvar edição"
-                    data-addProduto>
-            </form>
+            
         </section>
     </main>
     <footer>

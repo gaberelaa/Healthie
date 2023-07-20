@@ -1,4 +1,3 @@
-import { conectaApi } from "./conectaApi.js";
 import novoProduto from "./mostrarProdutos.js";
 
 const resultado = localStorage.getItem('resultadoDaBusca');
@@ -9,7 +8,7 @@ if (resultado !== null) {
 
     function mostrarProdutos(produtos) {
         resultadoContainer.innerHTML = '';
-        produtos.forEach(elemento => resultadoContainer.appendChild(novoProduto(elemento.nome, elemento.imageURL, elemento.preco, elemento.categoria)));
+        produtos.forEach(elemento => resultadoContainer.appendChild(novoProduto(elemento.id, elemento.nome, elemento.imageURL, elemento.preco, elemento.categoria)));
     }
 
     if (resultadoRecuperado.length > 0) {

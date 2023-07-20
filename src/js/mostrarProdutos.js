@@ -1,6 +1,5 @@
 import { conectaApi } from "./conectaApi.js"
 
-
 const divProdutos = document.querySelector('[data-products]');
 
 export default function novoProduto(id, nome, imageURL, preco, categoria) {
@@ -15,7 +14,7 @@ export default function novoProduto(id, nome, imageURL, preco, categoria) {
         <div class="card-body text-center d-flex flex-column align-items-center gap-2">
             <h5 class="card-title">${nome}</h5>
             <span class="price fw-bold">R$${preco},00</span>
-            <a href="#" class="btn btn__login">Comprar</a>
+            <a href="../pages/paginaProduto.html?id=${id}" class="btn btn__login">Ver produto</a>
         </div>`;
 
     card.innerHTML = content;
@@ -30,4 +29,3 @@ export async function listaProdutos() {
 }
 
 listaProdutos();
-

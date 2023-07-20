@@ -1,5 +1,4 @@
 import { conectaApi } from "./conectaApi.js";
-import novoProduto from "./mostrarProdutos.js";
 
 const inputSearch = document.querySelector('[data-search]');
 const btnSearch = document.querySelector('#btnSearch');
