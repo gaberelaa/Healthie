@@ -1,17 +1,17 @@
 async function listaProdutos() {
-    const conexao = await fetch('http://localhost:3000/produtos');
+    const conexao = await fetch('https://healthie-api.vercel.app/produtos');
     const conexaoConvertida = await conexao.json();
     return conexaoConvertida;
 }
 
 async function buscaProduto(termoDeBusca) {
-    const conexao = await fetch(`http://localhost:3000/produtos?q=${termoDeBusca}`);
+    const conexao = await fetch(`https://healthie-api.vercel.app/produtos?q=${termoDeBusca}`);
     const conexaoConvertida = await conexao.json();
     return conexaoConvertida;
 }
 
 async function criaProduto(imageURL, nome, descricao, preco, categoria) {
-    const conexao = await fetch('http://localhost:3000/produtos', {
+    const conexao = await fetch('https://healthie-api.vercel.app/produtos', {
         method: 'POST',
         headers: {
             'Content-type': 'application/json'
@@ -31,7 +31,7 @@ async function criaProduto(imageURL, nome, descricao, preco, categoria) {
 
 async function removeProduto(id) {
     try {
-        const conexao = await fetch(`http://localhost:3000/produtos/${id}`, {
+        const conexao = await fetch(`https://healthie-api.vercel.app/produtos/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-type': 'application/json'
