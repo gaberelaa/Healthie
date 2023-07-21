@@ -8,9 +8,9 @@ btnSearch.addEventListener('click', buscarProduto);
 export default async function buscarProduto(event) {
     event.preventDefault();
 
-    let termoDeBusca = inputSearch.value.trim(); // Remova espaços em branco no início e no fim
+    let termoDeBusca = inputSearch.value.trim();
     if (termoDeBusca === '') {
-        return; // Interrompe a função se o campo estiver vazio
+        return;
     }
 
     const busca = await conectaApi.buscaProduto(termoDeBusca);

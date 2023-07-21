@@ -143,22 +143,6 @@
       "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
       "preco": 5,
       "categoria": "saudavel"
-    },
-    {
-      "imageURL": "https://img.freepik.com/free-vector/vector-green-fresh-whole-half-cut-avocado-with-leaf-side-view-isolated-white-background_1284-45445.jpg?w=826&t=st=1689863886~exp=1689864486~hmac=f58c2732b0b86db8541dd22c14c67181f22e1d1a39d1575052e1193c3e3bf405",
-      "nome": "Abacate",
-      "categoria": "fruta",
-      "preco": "5",
-      "descricao": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus facilis nesciunt eius in necessitatibus quidem!",
-      "id": 19
-    },
-    {
-      "imageURL": "https://img.freepik.com/free-psd/3d-rendering-delicious-blueberries_23-2149929530.jpg?w=826&t=st=1689900880~exp=1689901480~hmac=4e38b859e63f4e5fc18c6670d4fd1a8feb9b9e36b3137b5afe9abda3dcd8a14d",
-      "nome": "Mirtilo",
-      "descricao": "Mirtilo",
-      "preco": "6",
-      "categoria": "fruta",
-      "id": 20
     }
   ]
 }

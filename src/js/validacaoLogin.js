@@ -15,11 +15,11 @@ function validaEmail() {
 
     if (emailRegex.test(email)) {
         spanError[0].innerText = '';
-        return true; // Email válido
+        return true;
     } else {
         spanError[0].classList.add('error');
         spanError[0].innerText = 'Por favor, digite um e-mail válido.';
-        return false; // Email inválido
+        return false;
     }
 }
 
@@ -28,10 +28,10 @@ function validaSenha() {
 
     if (senha.length > 3) {
         spanError[1].innerText = '';
-        return true; // Senha válida
+        return true;
     } else {
         spanError[1].classList.add('error');
         spanError[1].innerText = 'Digite a sua senha.';
-        return false; // Senha inválida
+        return false; 
     }
 }

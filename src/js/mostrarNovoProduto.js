@@ -70,7 +70,6 @@ function editarProduto(event) {
     event.preventDefault();
     const idProduto = event.currentTarget.dataset.id;
     
-    // Redirecionar para a página editarProduto.html passando o idProduto como parâmetro
     window.location.href = `editarProduto.html?id=${idProduto}`;
 }
 
