@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/frutas/mam%C3%A3o.png?raw=true",
+      "imageURL": "https://raw.githubusercontent.com/gaberelaa/Healthie/master/src/images/frutas/mamao.png",
       "nome": "Mamão",
       "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
       "preco": 5,
@@ -143,6 +143,14 @@
       "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
       "preco": 5,
       "categoria": "saudavel"
+    },
+    {
+      "imageURL": "https://img.freepik.com/free-psd/3d-rendering-delicious-grapefruit_23-2149929542.jpg?w=826&t=st=1689956598~exp=1689957198~hmac=ef88f40831fda4e3b4b176a7332e952c9858b6699b52e3e8ab1e64b0d3a9b094",
+      "nome": "Laranja",
+      "categoria": "fruta",
+      "preco": "5",
+      "descricao": "Laranja Bahia",
+      "id": 19
     }
   ]
 }

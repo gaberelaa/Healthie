@@ -68,7 +68,7 @@ async function atualizarProduto(event) {
 
     try {
         await atualizarProdutoNaApi(productId, produto);
-        alert("Produto atualizado com sucesso!");
+        window.location.href="../pages/perfil.html"
     } catch (error) {
         console.error("Erro ao atualizar produto:", error);
         alert("Erro ao atualizar produto!");
