@@ -33,6 +33,5 @@ A API foi "criada/hospedada" no mockApi.io
 ![Screeenshot foto do projeto](src/images/screenshot/screenshot%20(1).png)
 ![Screeenshot foto do projeto](src/images/screenshot/screenshot%20(3).png)
 ![Screeenshot foto do projeto](src/images/screenshot/screenshot%20(2).png)
-![Screeenshot foto do projeto](src/images/screenshot/screenshot%20(4).png)
 ---
 ⌨️ com ❤️ por [Gabriela Zunino](https://github.com/gaberelaa)
