@@ -6,7 +6,7 @@ export default function novoProduto(id, nome, imageURL, preco, categoria) {
     const card = document.createElement('div');
     card.classList.add('card');
     card.id = `${id}`
-    card.style.width = '18rem';
+    card.style.width = '15rem';
     card.dataset.category = categoria;
 
     const content = `

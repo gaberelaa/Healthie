@@ -11,7 +11,6 @@
 
 #login form {
     width: 31.25rem;
- 
 }
 
 #login form h1 {
@@ -30,4 +29,15 @@
 .cadastro {
     text-decoration: none;
     color: var(--verde-claro);
+}
+
+@media screen and (max-width: 1023px) {
+
+    #login .input {
+        width: 100%;
+    }
+
+    #login .btn__banner {
+        width: 45%;
+    }
 }

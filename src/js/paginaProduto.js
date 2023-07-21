@@ -8,8 +8,8 @@ function preencherDetalhesDoProduto(produto) {
     const produtoSection = document.querySelector('[data-produto]');
 
     const content = `
-        <div class="container d-flex justify-content-center align-items-center my-5">
-            <div class="produto__infos d-flex gap-4">
+        <div class="container d-flex justify-content-between align-items-center my-5">
+            <div class="produto__infos d-flex flex-column flex-lg-row gap-4">
                 <img src="${produto.imageURL}" alt="Imagem do produto" class="produto__infos-img">
 
                 <div class="produto__infos-texto d-flex flex-column justify-content-center">

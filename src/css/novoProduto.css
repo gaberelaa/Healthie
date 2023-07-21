@@ -93,3 +93,9 @@ input:focus {
     font-size: 0.9rem;
     color: #999898;
 }
+
+@media screen and (max-width: 1023px) {
+    form {
+        width: 90%;
+    }
+}

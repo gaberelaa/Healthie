@@ -21,10 +21,26 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar shadow-sm">
+    <header id="home">
+        <nav class="navbar navbar-expand-lg shadow-sm py-3 justify-content-between">
             <div class="container">
-                <a href="../index.html" class="navbar-brand">Healthie</a>
+                <a href="../index.html" class="navbar-brand me-5">Healthie</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-between ms-lg-5 my-3 m-lg-0"
+                    id="navbarNavDropdown">
+                    <form class="d-flex nav-item" role="search">
+                        <label class="px-lg-5 py-lg-2 px-2 py-1" class="searchLabel">
+                            <input type="text" placeholder="Digite a sua busca..." aria-label="Search" class="input"
+                                data-search>
+                            <button id="btnSearch"><i class="bi bi-search-heart-fill"></i></button>
+                        </label>
+                    </form>
+
+                    <a href="./login.html" class="nav-link btn__login px-lg-5 py-lg-2 p-1 my-2 m-lg-0 nav-item text-center">Login</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -49,7 +65,7 @@
 
         <section id="compra__venda">
             <div class="venda">
-                <div class="compraEvenda__cabecalho d-flex align-items-center justify-content-between m-5">
+                <div class="compraEvenda__cabecalho d-flex align-items-center flex-column flex-md-row justify-content-between m-5">
                     <h1 class="fw-bold cabecalho__titulo">Meus produtos</h1>
 
                     <div class="btns__meusProdutos">
@@ -57,54 +73,47 @@
                     </div>
                 </div>
 
-                <div class="compraEvenda__body d-flex gap-4 mx-5" data-novo>
+                <div class="compraEvenda__body d-flex gap-4 mx-5 flex-wrap" data-novo>
                 </div>
             </div>
 
             <div class="compra">
-                <div class="compraEvenda__cabecalho d-flex align-items-center justify-content-between m-5">
+                <div class="compraEvenda__cabecalho d-flex align-items-center flex-column flex-md-row justify-content-between m-5">
                     <h1 class="fw-bold cabecalho__titulo">Minhas compras</h1>
 
                     <button class="btn__banner adicionarProduto text-uppercase px-3 py-2 shadow-sm">Ver tudo</button>
                 </div>
 
-                <div class="compraEvenda__body d-flex gap-4 m-5">
-                    <div class="card" style="width: 18rem;" data-category="fruta">
-                        <img src="../src/images/frutas/manga.png" class="card-img-top" alt="...">
-                        <div class="card-body text-center d-flex flex-column align-items-center gap-2">
-                            <h5 class="card-title">Manga</h5>
-                            <span class="price fw-bold">R$5,00</span>
-                            <a href="#" class="btn btn__login">Comprar</a>
-                        </div>
-                    </div>
-                </div>
+                <div class="compraEvenda__body d-flex m-5 justify-content-center">
+                    <h1 class="fs-4 text-center">Você não realizou nenhuma compra ainda.</h1>
             </div>
         </section>
     </main>
     <footer>
-        <section id="footer__content" class="p-5 shadow-sm">
-            <div class="container d-flex justify-content-evenly">
+        <section id="footer__content" class="p-lg-5 py-3 shadow-sm">
+            <div class="container d-flex flex-column flex-md-row align-items-center justify-content-md-evenly gap-2">
                 <a href="#" class="navbar-brand">Healthie</a>
 
                 <ul class="infos__Lista d-flex flex-column gap-3">
-                    <li><a href="" class="infos__Links nav-link">Quem somos nós</a></li>
-                    <li><a href="" class="infos__Links nav-link">Política de privacidade</a></li>
-                    <li><a href="" class="infos__Links nav-link">Programa de fidelidade</a></li>
-                    <li><a href="" class="infos__Links nav-link">Nossas lojas</a></li>
-                    <li><a href="" class="infos__Links nav-link">Quero ser franqueado</a></li>
-                    <li><a href="" class="infos__Links nav-link">Anuncie aqui</a></li>
+                    <li><a href="" class="infos__Links fw-bold nav-link">Quem somos nós</a></li>
+                    <li><a href="" class="infos__Links fw-bold nav-link">Política de privacidade</a></li>
+                    <li><a href="" class="infos__Links fw-bold nav-link">Programa de fidelidade</a></li>
+                    <li><a href="" class="infos__Links fw-bold nav-link">Nossas lojas</a></li>
+                    <li><a href="" class="infos__Links fw-bold nav-link">Quero ser franqueado</a></li>
+                    <li><a href="" class="infos__Links fw-bold nav-link">Anuncie aqui</a></li>
                 </ul>
 
                 <div class="newsletter">
                     <div class="newsletter__text">
-                        <h2 class="fw-bold">Se inscreva em nossa Newsletter</h2>
-                        <p>Receba nossas promoções e cupons de desconto.</p>
+                        <h2 class="fw-bold text-center fs-5">Se inscreva em nossa Newsletter</h2>
+                        <p class="">Receba nossas promoções e cupons de desconto.</p>
                     </div>
-    
-                    <form action="" class="d-flex flex-column align-items-start" data-news>
+
+                    <form class="d-flex flex-column align-items-md-start align-items-center" data-news>
                         <span class="px-2 py-1" data-alert></span>
-                        <label>
-                            <input type="text" placeholder="Digite o seu e-mail" aria-label="email" class="input px-3" data-email>
+                        <label class="d-flex flex-column flex-lg-row">
+                            <input type="text" placeholder="Digite o seu e-mail" aria-label="email" class="input px-3"
+                                data-email>
                             <input type="submit" class="btn__email px-3" value="Inscreva-se">
                         </label>
                     </form>
@@ -113,7 +122,8 @@
         </section>
 
         <section id="copy">
-            <a href="https://github.com/gaberelaa" target="_blank" class="nav-link m-3 text-center fw-semibold">&copy; Gabriela Zunino, 2023.</a>
+            <a href="https://github.com/gaberelaa" target="_blank" class="nav-link m-3 text-center fw-semibold">&copy;
+                Gabriela Zunino, 2023.</a>
         </section>
     </footer>
 </body>

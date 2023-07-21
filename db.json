@@ -151,6 +151,14 @@
       "preco": "5",
       "descricao": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus facilis nesciunt eius in necessitatibus quidem!",
       "id": 19
+    },
+    {
+      "imageURL": "https://img.freepik.com/free-psd/3d-rendering-delicious-blueberries_23-2149929530.jpg?w=826&t=st=1689900880~exp=1689901480~hmac=4e38b859e63f4e5fc18c6670d4fd1a8feb9b9e36b3137b5afe9abda3dcd8a14d",
+      "nome": "Mirtilo",
+      "descricao": "Mirtilo",
+      "preco": "6",
+      "categoria": "fruta",
+      "id": 20
     }
   ]
 }

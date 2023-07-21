@@ -49,3 +49,18 @@ nav {
     color: rgb(231, 101, 101);
     border: 1px solid rgb(231, 101, 101);
 }
+
+@media screen and (max-width: 1023px) {
+    #profile__info {
+        display: none;
+    }
+
+    .cabecalho__titulo {
+        font-size: 1rem;
+        border-bottom: 3px solid var(--verde-claro);
+    }
+
+    .btn__banner {
+        font-size: 0.7rem;
+    }
+}

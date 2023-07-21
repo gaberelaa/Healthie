@@ -23,5 +23,5 @@ async function btnFiltrar() {
 
     divProdutos.innerHTML = '';
 
-    produtosFiltrados.forEach(elemento => divProdutos.appendChild(novoProduto(elemento.nome, elemento.imageURL, elemento.preco, elemento.categoria)));
+    produtosFiltrados.forEach(elemento => divProdutos.appendChild(novoProduto(elemento.id, elemento.nome, elemento.imageURL, elemento.preco, elemento.categoria)));
 };

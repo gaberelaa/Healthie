@@ -177,3 +177,42 @@ label i {
 .navbar a {
     color: var(--verde-claro);
 }
+
+@media screen and (max-width: 1023px) {
+
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+    label {
+        width: 100%;   
+    }
+
+    .input {
+        width: 80%;
+    }
+ 
+    .navbar-toggler {
+        border: none;
+    }
+
+    .banner__content {
+        height: max-content;
+    }
+    
+    .banner__titulo {
+        font-size: 2rem;
+    }
+    
+    .banner__texto {
+        width: 80vw;
+    }
+    
+    .newsletter {
+        width: 90%;
+    }
+
+    .btn__email {
+        border-radius: 0 0 5rem 4rem;
+    }
+}

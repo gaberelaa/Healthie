@@ -4,8 +4,8 @@ main {
 }
 
 #produto {
-    width: 450px;
-    height: 500px;
+    width: 28.125rem;
+    height: 31.25rem;
 }
 
 .produto__img {
@@ -14,10 +14,6 @@ main {
 
 .produto__descricao {
     width: 26rem;
-}
-
-#novoProduto {
-    width: 30vw;
 }
 
 .form {
@@ -31,4 +27,15 @@ main {
 .card__imgEdita {
     width: 70%;
     border-radius: 1rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .form {
+        width: 100%;
+    }
+
+    #produto {
+        width: 100vw;
+        height: auto;
+    }
 }
