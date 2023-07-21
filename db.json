@@ -143,14 +143,6 @@
       "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
       "preco": 5,
       "categoria": "saudavel"
-    },
-    {
-      "imageURL": "https://img.freepik.com/free-vector/vector-green-fresh-whole-half-cut-avocado-with-leaf-side-view-isolated-white-background_1284-45445.jpg?w=740&t=st=1689903220~exp=1689903820~hmac=6cd4b8363b265aba59ed3a1f0d6a27a4efbe707509a775e13c98c9e9b9df4dac",
-      "nome": "Abacate",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta",
-      "preco": "10",
-      "categoria": "fruta",
-      "id": 19
     }
   ]
 }
