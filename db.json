@@ -4,7 +4,7 @@
       "id": 1,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/frutas/banana.png?raw=true",
       "nome": "Banana",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "fruta"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/frutas/framboesa.png?raw=true",
       "nome": "Framboesa",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "fruta"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/frutas/ma%C3%A7a.png?raw=true",
       "nome": "Maça",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "fruta"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "imageURL": "https://raw.githubusercontent.com/gaberelaa/Healthie/master/src/images/frutas/mamao.png",
       "nome": "Mamão",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "fruta"
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/frutas/manga.png?raw=true",
       "nome": "Manga",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "fruta"
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/frutas/pera.png?raw=true",
       "nome": "Pêra",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "fruta"
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/vegetais/abobora.png?raw=true",
       "nome": "Abóbora",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "vegetal"
     },
@@ -60,7 +60,7 @@
       "id": 8,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/vegetais/alhoPoro.png?raw=true",
       "nome": "Alho poró",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "vegetal"
     },
@@ -68,7 +68,7 @@
       "id": 9,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/vegetais/cenoura.png?raw=true",
       "nome": "Cenoura",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "vegetal"
     },
@@ -76,7 +76,7 @@
       "id": 10,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/vegetais/pimentaoVerde.png?raw=true",
       "nome": "Pimentão Verde",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "vegetal"
     },
@@ -84,7 +84,7 @@
       "id": 11,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/vegetais/pimentaoVermelho.png?raw=true",
       "nome": "Pimentão vermelho",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "vegetal"
     },
@@ -92,7 +92,7 @@
       "id": 12,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/vegetais/vegetal.png?raw=true",
       "nome": "Vegetal",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "vegetal"
     },
@@ -100,7 +100,7 @@
       "id": 13,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/comidas/arroz.png?raw=true",
       "nome": "Arroz integral",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "saudavel"
     },
@@ -108,7 +108,7 @@
       "id": 14,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/comidas/macarrao.png?raw=true",
       "nome": "Macarrão integral",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "saudavel"
     },
@@ -116,7 +116,7 @@
       "id": 15,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/comidas/ramen.png?raw=true",
       "nome": "Rámen",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "saudavel"
     },
@@ -124,7 +124,7 @@
       "id": 16,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/comidas/salada.png?raw=true",
       "nome": "Salada",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "saudavel"
     },
@@ -132,7 +132,7 @@
       "id": 17,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/comidas/saladaOvos.png?raw=true",
       "nome": "Salada com ovos",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "saudavel"
     },
@@ -140,7 +140,7 @@
       "id": 18,
       "imageURL": "https://github.com/gaberelaa/Healthie/blob/master/src/images/comidas/shawarma.png?raw=true",
       "nome": "Shawarma integral",
-      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam possimus error perferendis corrupti praesentium molestias porro laboriosam dicta vel aut eligendi ea aperiam reiciendis ad minima exercitationem autem perspiciatis inventore, rerum doloremque? Perspiciatis minima nemo neque tempora nesciunt architecto soluta rerum dicta aliquid, facilis dolorem totam ratione, enim est aperiam maiores corporis consequuntur! Vitae modi, doloribus quo blanditiis tempora distinctio inventore quisquam debitis numquam veniam aliquid vel iste ut itaque quas ad dignissimos, cupiditate sed. Eos voluptates cumque expedita vitae soluta debitis et nemo asperiores possimus quae, officiis beatae suscipit? Labore aspernatur exercitationem deleniti sunt aliquid ut sit ea!",
+      "descricao": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "preco": 5,
       "categoria": "saudavel"
     },

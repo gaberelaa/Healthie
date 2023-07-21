@@ -1,5 +1,5 @@
 async function buscaProdutoPorId(id) {
-    const conexao = await fetch(`http://localhost:3000/produtos/${id}`);
+    const conexao = await fetch(`https://64bac2165e0670a501d6a06b.mockapi.io/produtos/${id}`);
     const produto = await conexao.json();
     return produto;
 }
@@ -76,7 +76,7 @@ async function atualizarProduto(event) {
 }
 
 async function atualizarProdutoNaApi(id, produto) {
-    const conexao = await fetch(`http://localhost:3000/produtos/${id}`, {
+    const conexao = await fetch(`https://64bac2165e0670a501d6a06b.mockapi.io/produtos/${id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
