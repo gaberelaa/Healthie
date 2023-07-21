@@ -1,5 +1,5 @@
 async function buscaProdutoPorId(id) {
-    const conexao = await fetch(`https://healthie-api.vercel.app/produtos/${id}`);
+    const conexao = await fetch(`http://localhost:3000/produtos/${id}`);
     const produto = await conexao.json();
     return produto;
 }
@@ -76,7 +76,7 @@ async function atualizarProduto(event) {
 }
 
 async function atualizarProdutoNaApi(id, produto) {
-    const conexao = await fetch(`https://healthie-api.vercel.app/produtos/${id}`, {
+    const conexao = await fetch(`http://localhost:3000/produtos/${id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
