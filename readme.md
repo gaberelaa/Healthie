@@ -21,6 +21,8 @@ Para visualizar o site ao vivo é só clicar nesse link -> https://healthie-one.
 
 A API foi "criada/hospedada" no mockApi.io
 
+Para fazer login basta inserir um email válido (exemplo: teste@teste.com) e uma senha com mais de 4 caracteres.
+
 ## 🛠️ Construído com
 
 - HTML & CSS
